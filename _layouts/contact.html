@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<div id="contactText">{{content}}</div>
+<br>
+<div id=conWrap>
+<div class="row">
+  <div class="contactSocial"><a href="https://www.facebook.com/{{ site.facebook_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#facebook' | relative_url }}"></use></svg> <span class="username">{{ site.facebook_username| escape }}</span></a>
+  </div>
+  <div class="contactSocial"><a href="https://instagram.com/{{ site.instagram_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#instagram' | relative_url }}"></use></svg> <span class="username">{{ site.instagram_username| escape }}</span></a>
+  </div>
+  <div class="contactSocial"><a href="https://github.com/{{ site.github_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg> <span class="username">{{ site.github_username| escape }}</span></a>
+  </div>
+</div>
+</div>
+
+<br>
+
+<form id="contact">
+    <div class="row">
+   <div class="column">
+ <fieldset id="contactForm">
+     <legend>CONTACT FORM</legend>
+       <label for="name">Name: * <input type="text" id="name" name="name" size="44"></label>
+       <label for="email">E-mail: * <input type="text" id="email" name="email" size="44"></label>
+      <label for="telephone">Phone number: <input type="text" id="telephone" name="telephone" size="44"></label>
+       <label for="subject">Subject: *<input type="text" id="subject" name="subject" size="44"></label>
+       <label for="message">Message: *<textarea id="message"></textarea></label>
+       <p id="submitbtn"><input type="submit" value="SUBMIT"></p>
+   </fieldset>
+</div>
+</div>
+</form>

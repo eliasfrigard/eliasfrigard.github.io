@@ -6,14 +6,58 @@
   color: #dedede;
 }
 
-footer {text-align:center; padding-bottom:10px;}
+#contactForm {margin: 0 auto; width:70%; text-align:left; margin-top:10px; border-radius:5px;}
+#contactForm input, #message {display:block; margin-top:10px; margin-bottom:10px;}
+#contactForm legend {text-align:center;}
+#message {width:98%; height:150px;}
+
+#frontImg {
+  border-radius: 5px;
+  filter: drop-shadow(0 0 1rem #000000);
+}
+
+.contactSocial {
+  width:33%;
+  text-align:center;
+  float:left;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #900;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #600;
+}
+
+
+footer {text-align:center; padding-bottom:10px; padding-top:4px;}
 
 .footNav {margin-top:15px; float:none; width:100%; text-align:center;}
-.footNav ul {display:inline-block; list-style-type: none;}
-.footNav ul li {display:inline;	margin:0 auto; margin-bottom:15px;}
-.footNav li + li:before {content: "|"; padding:20px;}
-.footNav nav ul li:last-child {border-right: none;}
-.footNav a {
+
+nav ul {display:inline-block; list-style-type: none;}
+nav ul li {display:inline;	margin:0 auto;}
+
+nav li + li:before {content: "|"; padding:20px;}
+nav ul li:last-child {border-right: none;}
+nav a {
 	padding:5px;
 	text-decoration:none;
   display:inline-block;  
@@ -36,20 +80,16 @@ a:link {
 }
 
 .site-title {
-  margin-top: 5px;
   text-transform: uppercase;
-}
-.site-title link:visited {
-  color:#dedede;
 }
 
 .row:after {content: ""; display: table; clear: both;}
 
-#leftCol {float:left; width:32%; margin-right: 2.5%}
+#leftCol {float:left; width:34%; margin-right: 0.5%; padding-top: 10px;}
 #rightCol {float:left; width:63%; margin-left: 2.5%;}
 
-#youtube {float:left; width:68%; margin-right: 1%;}
-#spotify {float:right; width:30%; margin-left: 1%;}
+#youtube {float:left; width:68%; margin-right: 1%; filter: drop-shadow(0 0 1rem #000000);}
+#spotify {float:right; width:30%; margin-left: 1%; filter: drop-shadow(0 0 1rem #000000);}
 
 .lightLine {
   height: 1px;
@@ -58,8 +98,8 @@ a:link {
   border: none;
 }
 
-$base-font-family: Arial, Helvetica, sans-serif;
-// $base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+//$base-font-family: Arial, Helvetica, sans-serif;
+$base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
