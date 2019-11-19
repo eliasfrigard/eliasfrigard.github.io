@@ -1,0 +1,20 @@
+# AUTHOR
+
+Name: Elias Frigård
+Github: https://github.com/eliasfrigard/
+Facebook: https://www.facebook.com/elias.frigard
+Location: Helsinki, Finland
+Published: November 2019
+
+---------------------------
+
+# SOFTWARE
+
+This website was made using:
+
+- Jekyll (Minima)
+- Visual Studio Code
+- Github & Github Pages
+- Docker
+- NPM
+- Node.js

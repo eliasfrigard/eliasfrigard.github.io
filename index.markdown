@@ -4,6 +4,7 @@
 
 layout: index
 title: Home
+order: 1
 ---
 
 My name is Elias Frigård. I'm a 27 years old guy and from Gävle, Sweden who is living in Helsinki, Finland at the moment. I decided to move here in 2017 because I wanted to connect with my finnish background. On this webiste you can find some useful information about me, as well as some coding projects that I'm working on as part of my studies and maybe some own projects in the future.

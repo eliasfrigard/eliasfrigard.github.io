@@ -2,6 +2,7 @@
 layout: contact
 title: Contact
 permalink: /contact/
+order: 3
 ---
 
 If you have any questions or proposals, feel free to use this form to contact me!
